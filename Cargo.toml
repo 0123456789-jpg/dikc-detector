@@ -7,3 +7,4 @@ authors = ["C191239 <zhushunzhong2025@i.pkuschool.edu.cn>"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+sysctl = "0.5.5"
