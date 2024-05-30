@@ -4,6 +4,10 @@ version = "0.1.0"
 edition = "2021"
 authors = ["C191239 <zhushunzhong2025@i.pkuschool.edu.cn>"]
 license = "LGPL-3.0-or-later"
+description = "Find bad Mac users"
+readme = "README.md"
+repository = "https://github.com/0123456789-jpg/dikc-detector"
+keywords = ["detector"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
