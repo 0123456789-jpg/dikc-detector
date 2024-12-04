@@ -61,14 +61,14 @@ const HW_MODEL: &str = "hw.model";
 const KERN_OSPRODUCTVERSION: &str = "kern.osproductversion";
 
 /// Very bad machine.
-const PULP_MACHINE: &str = "MacBookPro16.1";
+const PULP_MACHINE: &str = "MacBookPro16,1";
 
 /// Checks whether this Mac is bad.
 ///
 /// # Errors
 ///
 /// - Errors if macOS version is equal to or newer than __`14.4`__, which is not POSIX-compliant.
-/// - Errors if the Mac model is `MacBookPro16.1`.
+/// - Errors if the Mac model is `MacBookPro16,1`.
 pub fn check() -> Result<(), Error> {
     let mut errs: Vec<Error> = Vec::with_capacity(2);
     if let Err(err) = check_posix() {
